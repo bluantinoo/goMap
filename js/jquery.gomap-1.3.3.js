@@ -145,7 +145,7 @@
                 scaleControl: opts.scaleControl,
                 scrollwheel: opts.scrollwheel,
                 zoom: opts.zoom,
-           		disableDefaultUI: opts.uiDisabled, //added by Nico 10/9/14
+                disableDefaultUI: opts.uiDisabled, //added by Nico 10/9/14
                 styles: opts.styles
             };
             this.map = new google.maps.Map(el, myOptions);
